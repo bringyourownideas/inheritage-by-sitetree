@@ -7,7 +7,7 @@
 [![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree)
 [![License](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/license.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
 
-Allows you to inheritage any property from parent pages (any level).
+Allows you to inheritage any property from parent pages (any level). Check out the [usage example](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree#usage) to see how it works.
 
 ## Features
 
@@ -15,49 +15,26 @@ Allows you to inheritage any property from parent pages (any level).
 
 *This is only tested for db-fields. Has_one or has_many hasn't be confirmed.*
 
-## Requirements and installation
-
-### Requirements
-
-* SilverStripe Framework and CMS ^3.0
-
-### Installation
-
-Run the following commands to install the package:
-
-```
-# install the package
-composer require FriendsOfSilverStripe/inheritage-by-sitetree dev-master
-
-# run dev/build to load extension
-php ./framework/cli-script.php dev/build
-```
 
 ## Usage
 
-```yaml
-Page:
-  extensions:
-    InheritageBySiteTreeExtension
-```
-
-
-The following example shows a possible use case:
+The following example shows a possible use case of two page types which have a fixed position in the information architecture and using inheritage to get the "color" field to the sublanding page.
 
 ```php
 <?php
 /**
  * In the SiteTree this page will be directly under the homepage.
+ *
+ * URL structure /landing
  */
 class LandingPage extends Page
 {
     $db = [
         'Color' => 'Varchar',
     ];
-
-    /**
-     * @todo add restrictions to the sitetree structure
-     */
+}
+class LandingPage_Controller extends Page_Controller
+{
 }
 /* ... */
 ```
@@ -66,12 +43,11 @@ class LandingPage extends Page
 <?php
 /**
  * In the SiteTree this page will be directly under the landing page.
+ *
+ * URL structure /landing/sublanding
  */
 class SubLandingPage extends Page
 {
-    /**
-     * @todo add restrictions to the sitetree structure
-     */
 }
 class SubLandingPage_Controller extends Page_Controller
 {
@@ -81,10 +57,52 @@ class SubLandingPage_Controller extends Page_Controller
 in SubLandingPage.ss you can do this now:
 
 ```
-    <div>
-    $GetFromParentPage(Color)
-    </div>
+<div>
+$GetFromParentPage(Color)
+</div>
 ```
+
+to retrieve the Color value set on the parent.
+
+## Requirements and installation
+
+### Requirements
+
+* SilverStripe Framework and CMS ^3.0
+
+### Installation
+
+1. Run the following command to install the package:
+
+    ```
+    # install the package
+    composer require FriendsOfSilverStripe/inheritage-by-sitetree dev-master;
+    git add composer.json composer.lock;
+    git commit -m 'MINOR: adding inheritage-by-sitetree';
+    ```
+
+2. Set up your Extension
+
+    This can be done either via a yml configuration file (e.g. mysite/_config/config.yml):
+
+    ```yaml
+    Page:
+      extensions:
+        InheritageBySiteTreeExtension
+    ```
+
+    *or* by checking the [InheritageBySiteTreeExtension.php](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/code/extensions/InheritageBySiteTreeExtension.php) and adding the "non-extension" version of the module to your Page.php-file. The second option is more performant.
+
+3. Run dev/build to load extension
+
+    ```bash
+    # run dev/build to load extension
+    php ./framework/cli-script.php dev/build
+    ```
+
+## [Contributing](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md)
+
+I'm happy to discuss feature requests or to review pull requests. Feel free :)
 
 ## License
 

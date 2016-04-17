@@ -52,11 +52,11 @@ class InheritageBySiteTreeExtension extends Extension
 /*
     public function getFromParentPage($dbField)
     {
-        $result = null;
-
         if (!is_string($dbField)) {
             throw new Exception('You can only give strings to getFromParentPage');
         }
+
+        $result = null;
 
         // if this isn't the top level page...
         $parentPage = $this->Parent();

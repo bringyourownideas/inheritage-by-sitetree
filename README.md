@@ -7,7 +7,7 @@
 [![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree)
 [![License](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/license.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
 
-Allows you to inheritage any property from parent pages (any level). Check out the [usage example](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree#usage) to see how it works.
+Allows you to inherits any property from parent pages (any level). Check out the [usage example](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree#usage) to see how it works.
 
 ## Features
 

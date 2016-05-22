@@ -1,4 +1,6 @@
-# [SilverStripe Inheritage by SiteTree](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree)
+# SilverStripe Inheritage by SiteTree
+
+Allows you to [inherits any property from parent pages](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree) (any level). Check out the [usage example](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree#usage) to see how it works.
 
 [![Build Status](https://api.travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree.svg?branch=master)](https://travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree)
 [![Latest Stable Version](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/version.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/releases)
@@ -6,8 +8,6 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/FriendsOfSilverStripe/inheritage-by-sitetree.svg)](https://scrutinizer-ci.com/g/FriendsOfSilverStripe/inheritage-by-sitetree?branch=master)
 [![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree)
 [![License](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/license.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
-
-Allows you to inherits any property from parent pages (any level). Check out the [usage example](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree#usage) to see how it works.
 
 ## Features
 
@@ -100,10 +100,4 @@ to retrieve the Color value set on the parent.
     php ./framework/cli-script.php dev/build
     ```
 
-## [Contributing](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md)
-
-I'm happy to discuss feature requests or to review pull requests. Feel free :)
-
-## License
-
-This module was published under the BSD-3-Clause license.
+## MISC: [Future ideas/development, issues](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/issues), [License](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md), [Contributing](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md)

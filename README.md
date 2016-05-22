@@ -100,4 +100,4 @@ to retrieve the Color value set on the parent.
     php ./framework/cli-script.php dev/build
     ```
 
-## MISC: [Future ideas/development, issues](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/issues), [License](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md), [Contributing](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md)
+## MISC: [Future ideas/development, issues](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/issues), [Contributing](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md), [License](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)

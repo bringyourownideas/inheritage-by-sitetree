@@ -1,0 +1,7 @@
+---
+Name: inheritage-by-sitetree
+After: 'framework/*', 'cms/*'
+---
+Page:
+  extensions:
+    - InheritageBySiteTreeExtension

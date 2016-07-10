@@ -1,22 +1,15 @@
-# SilverStripe Inheritage by SiteTree
+# SilverStripe Inheritage by SiteTree <br />[![Build Status](https://api.travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree.svg?branch=master)](https://travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree) [![Latest Stable Version](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/version.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/releases) [![Latest Unstable Version](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/v/unstable.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree) [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/FriendsOfSilverStripe/inheritage-by-sitetree.svg)](https://scrutinizer-ci.com/g/FriendsOfSilverStripe/inheritage-by-sitetree?branch=master) [![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree) [![License](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/license.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
 
 Allows you to [inherits any property from parent pages](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree) (any level). Check out the [usage example](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree#usage) to see how it works.
 
-[![Build Status](https://api.travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree.svg?branch=master)](https://travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree)
-[![Latest Stable Version](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/version.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/releases)
-[![Latest Unstable Version](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/v/unstable.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/FriendsOfSilverStripe/inheritage-by-sitetree.svg)](https://scrutinizer-ci.com/g/FriendsOfSilverStripe/inheritage-by-sitetree?branch=master)
-[![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree)
-[![License](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/license.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
-
-## Features
+### Features
 
 * Loading information from direct or indirect parent page.
 
 *This is only tested for db-fields. Has_one or has_many hasn't be confirmed.*
 
 
-## Usage
+### Usage
 
 The following example shows a possible use case of two page types which have a fixed position in the information architecture and using inheritage to get the "color" field to the sublanding page.
 
@@ -64,13 +57,13 @@ $GetFromParentPage(Color)
 
 to retrieve the Color value set on the parent.
 
-## Requirements and installation
+### Requirements and installation
 
-### Requirements
+#### Requirements
 
 * SilverStripe Framework and CMS ^3.0
 
-### Installation
+#### Installation
 
 1. Run the following command to install the package:
 
@@ -100,4 +93,4 @@ to retrieve the Color value set on the parent.
     php ./framework/cli-script.php dev/build
     ```
 
-## MISC: [Future ideas/development, issues](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/issues), [Contributing](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md), [License](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
+### misc: [future ideas/development, issues](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/issues), [contrib](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md), [license](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)

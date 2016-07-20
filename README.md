@@ -58,7 +58,7 @@ in SubLandingPage.ss you can do this now:
 <div>
 <% cached 'color', $Top.ID, $Top.LastEdited %>
 $GetFromParentPage(Color)
-<% end_cached  %>
+<% end_cached %>
 </div>
 ```
 

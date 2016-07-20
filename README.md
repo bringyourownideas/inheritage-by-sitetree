@@ -22,14 +22,17 @@ The following example shows a possible use case of two page types which have a f
  */
 class LandingPage extends Page
 {
+    /**
+     * @var array
+     */
     $db = [
         'Color' => 'Varchar',
     ];
 }
 class LandingPage_Controller extends Page_Controller
 {
+    /* ... */
 }
-/* ... */
 ```
 
 ```php
@@ -41,9 +44,11 @@ class LandingPage_Controller extends Page_Controller
  */
 class SubLandingPage extends Page
 {
+    /* ... */
 }
 class SubLandingPage_Controller extends Page_Controller
 {
+    /* ... */
 }
 ```
 
@@ -51,11 +56,13 @@ in SubLandingPage.ss you can do this now:
 
 ```
 <div>
+<% cached 'color', $Top.ID, $Top.LastEdited %>
 $GetFromParentPage(Color)
+<% end_cached  %>
 </div>
 ```
 
-to retrieve the Color value set on the parent.
+to retrieve the Color value set on the parent. Please ensure you apply suitable caching to any calls.
 
 ### Requirements and installation
 

@@ -29,7 +29,7 @@ class InheritageBySiteTreeExtension extends Extension
             // ... check if it has this field...
             if ($parentPage->hasField($dbField)) {
                 $result = $parentPage->$dbField;
-            } else {
+            } else if (get_class($parentPage) != 'SiteTree') {
                 // ... if not call its parent.
                 $result = $parentPage->getFromParentPage($dbField);
             }

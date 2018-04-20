@@ -43,7 +43,7 @@ class InheritageBySiteTreeExtension extends Extension
     /**
      * Does nothing else than just calling the parent, if exists, and returning $dbField or calling itself again.
      *
-     * @see https://www.github.com/FriendsOfSilverStripe/inheritage-by-sitetree
+     * @see https://www.github.com/bringyourownideas/inheritage-by-sitetree
      *
      * @throws Exception
      * @param string $dbField

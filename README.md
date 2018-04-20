@@ -1,6 +1,6 @@
-# SilverStripe Inheritage by SiteTree <br />[![Build Status](https://api.travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree.svg?branch=master)](https://travis-ci.org/FriendsOfSilverStripe/inheritage-by-sitetree) [![Latest Stable Version](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/version.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/releases) [![Latest Unstable Version](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/v/unstable.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/FriendsOfSilverStripe/inheritage-by-sitetree/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/FriendsOfSilverStripe/inheritage-by-sitetree/?branch=master) [![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/inheritage-by-sitetree) [![License](https://poser.pugx.org/FriendsOfSilverStripe/inheritage-by-sitetree/license.svg)](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
+# SilverStripe Inheritage by SiteTree <br />[![Build Status](https://api.travis-ci.org/bringyourownideas/inheritage-by-sitetree.svg?branch=master)](https://travis-ci.org/bringyourownideas/inheritage-by-sitetree) [![Latest Stable Version](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/version.svg)](https://github.com/bringyourownideas/inheritage-by-sitetree/releases) [![Latest Unstable Version](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/v/unstable.svg)](https://packagist.org/packages/bringyourownideas/inheritage-by-sitetree) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bringyourownideas/inheritage-by-sitetree/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bringyourownideas/inheritage-by-sitetree/?branch=master) [![Total Downloads](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/bringyourownideas/inheritage-by-sitetree) [![License](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/license.svg)](https://github.com/bringyourownideas/inheritage-by-sitetree/blob/master/license.md)
 
-Allows you to [inherits any property from parent pages](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree) (any level). Check out the [usage example](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree#usage) to see how it works.
+Allows you to [inherits any property from parent pages](https://github.com/bringyourownideas/inheritage-by-sitetree) (any level). Check out the [usage example](https://github.com/bringyourownideas/inheritage-by-sitetree#usage) to see how it works.
 
 ### Features
 
@@ -76,7 +76,7 @@ to retrieve the Color value set on the parent. Please ensure you apply suitable 
 
     ```
     # install the package
-    composer require FriendsOfSilverStripe/inheritage-by-sitetree dev-master;
+    composer require bringyourownideas/inheritage-by-sitetree dev-master;
     git add composer.json composer.lock;
     git commit -m 'MINOR: adding inheritage-by-sitetree';
     ```
@@ -91,7 +91,7 @@ to retrieve the Color value set on the parent. Please ensure you apply suitable 
         InheritageBySiteTreeExtension
     ```
 
-    *or* by checking the [InheritageBySiteTreeExtension.php](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/code/extensions/InheritageBySiteTreeExtension.php) and adding the "non-extension" version of the module to your Page.php-file. The second option is more performant.
+    *or* by checking the [InheritageBySiteTreeExtension.php](https://github.com/bringyourownideas/inheritage-by-sitetree/blob/master/code/extensions/InheritageBySiteTreeExtension.php) and adding the "non-extension" version of the module to your Page.php-file. The second option is more performant.
 
 3. Run dev/build to load extension
 
@@ -100,4 +100,4 @@ to retrieve the Color value set on the parent. Please ensure you apply suitable 
     php ./framework/cli-script.php dev/build
     ```
 
-### misc: [future ideas/development, issues](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/issues), [contrib](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/CONTRIBUTING.md), [license](https://github.com/FriendsOfSilverStripe/inheritage-by-sitetree/blob/master/license.md)
+### misc: [future ideas/development, issues](https://github.com/bringyourownideas/inheritage-by-sitetree/issues), [contrib](https://github.com/bringyourownideas/inheritage-by-sitetree/blob/master/CONTRIBUTING.md), [license](https://github.com/bringyourownideas/inheritage-by-sitetree/blob/master/license.md)

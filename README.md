@@ -1,12 +1,12 @@
 # SilverStripe Inheritage by SiteTree <br />[![Build Status](https://api.travis-ci.org/bringyourownideas/inheritage-by-sitetree.svg?branch=master)](https://travis-ci.org/bringyourownideas/inheritage-by-sitetree) [![Latest Stable Version](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/version.svg)](https://github.com/bringyourownideas/inheritage-by-sitetree/releases) [![Latest Unstable Version](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/v/unstable.svg)](https://packagist.org/packages/bringyourownideas/inheritage-by-sitetree) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bringyourownideas/inheritage-by-sitetree/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bringyourownideas/inheritage-by-sitetree/?branch=master) [![Total Downloads](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/downloads.svg)](https://packagist.org/packages/bringyourownideas/inheritage-by-sitetree) [![License](https://poser.pugx.org/bringyourownideas/inheritage-by-sitetree/license.svg)](https://github.com/bringyourownideas/inheritage-by-sitetree/blob/master/license.md)
 
-Allows you to [inherits any property from parent pages](https://github.com/bringyourownideas/inheritage-by-sitetree) (any level). Check out the [usage example](https://github.com/bringyourownideas/inheritage-by-sitetree#usage) to see how it works.
+Allows you to [inherit any property from parent pages](https://github.com/bringyourownideas/inheritage-by-sitetree) (any level). Check out the [usage example](https://github.com/bringyourownideas/inheritage-by-sitetree#usage) to see how it works.
 
 ### Features
 
 * Loading information from direct or indirect parent page.
 
-*This is only tested for db-fields. Has_one or has_many hasn't be confirmed.*
+* This is only tested for db-fields. Has_one or has_many hasn't be confirmed.*
 
 
 ### Usage

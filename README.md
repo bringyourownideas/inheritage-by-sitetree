@@ -76,7 +76,7 @@ to retrieve the Color value set on the parent. Please ensure you apply suitable 
 
     ```
     # install the package
-    composer require bringyourownideas/inheritage-by-sitetree dev-master;
+    composer require bringyourownideas/inheritage-by-sitetree;
     git add composer.json composer.lock;
     git commit -m 'MINOR: adding inheritage-by-sitetree';
     ```

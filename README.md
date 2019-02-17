@@ -101,3 +101,7 @@ to retrieve the Color value set on the parent. Please ensure you apply suitable 
     ```
 
 ### misc: [future ideas/development, issues](https://github.com/bringyourownideas/inheritage-by-sitetree/issues), [contrib](https://github.com/bringyourownideas/inheritage-by-sitetree/blob/master/CONTRIBUTING.md), [license](https://github.com/bringyourownideas/inheritage-by-sitetree/blob/master/license.md)
+
+This project is supported by [bring your own ideas Ltd.](https://bringyourownideas.com). Bring Your Own Ideas Ltd. helps you to make your project ideas to reality.
+
+[![bring your own ideas](https://bringyourownideas.com/images/byoi-light-bulb-transparent-background.png)](https://bringyourownideas.com)
